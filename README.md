@@ -16,13 +16,28 @@ Your agent can:
 
 ---
 
-## Quick Start
+## Quick Start (One Command)
 
-**TL;DR for your AI:**
+**On your VPS, run:**
 
-> "Set up social media access for my agent following this repo. I have a VPS running Ubuntu. Walk me through each step."
+```bash
+bash <(curl -s https://raw.githubusercontent.com/zuocharles/agent-social-media-skill/main/setup.sh)
+```
 
-Your AI will guide you through the setup.
+This installs everything. Then:
+
+1. **Follow the SSH tunnel instructions** it prints
+2. **Create SEPARATE social media accounts for your agent** (don't use personal accounts!)
+3. **Login in VNC browser**
+4. **Run the finalize command** it prints
+
+**Total time:** 10 minutes
+
+---
+
+## For AI Assistants
+
+**TL;DR:** Run the setup script above, help user create SSH tunnel, guide them to create agent accounts and login via VNC, then run finalize.
 
 ---
 

@@ -80,11 +80,12 @@ python3 ~/.openclaw/tools/agent-social-search.py "autonomous agents 2026"
 ```
 
 **What to do with results:**
-1. Log to `memory/YYYY-MM-DD.md` under "Discovery Scan"
-2. Add each discovery to `MEMORY.md` Discovery Insights table
-3. Track count toward 15+ sources minimum
-4. When 15+ sources reached, analyze for patterns (3+ mentions)
-5. If patterns found, propose to user
+1. Log to your memory/log files (format depends on your agent structure)
+2. Track discoveries toward minimum threshold before acting (e.g., 15+ sources)
+3. Analyze for patterns (same topic mentioned 3+ times across different sources)
+4. Only propose actions to user after seeing clear patterns
+
+**Note:** The exact file structure depends on your agent. Adapt to your memory system.
 
 ### 2. Pain Point Research
 
