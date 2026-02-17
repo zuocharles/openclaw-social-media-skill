@@ -122,7 +122,7 @@ mkdir -p ~/.openclaw/tools
 
 # Download the script
 curl -o ~/.openclaw/tools/agent-social-search.py \
-  https://raw.githubusercontent.com/YOUR_USERNAME/agent-social-media-skill/main/agent-social-search.py
+  https://raw.githubusercontent.com/zuocharles/agent-social-media-skill/main/agent-social-search.py
 
 # Make executable
 chmod +x ~/.openclaw/tools/agent-social-search.py
@@ -385,7 +385,7 @@ MIT
 
 ## Credits
 
-Created by [Charles](https://github.com/YOUR_USERNAME) for OpenClaw agents.
+Created by [Charles](https://github.com/zuocharles) for OpenClaw agents.
 
 Uses:
 - Chrome DevTools Protocol (Google)
