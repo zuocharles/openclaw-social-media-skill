@@ -3,7 +3,7 @@
 ## Step 1: Create GitHub Repo
 
 1. Go to https://github.com/new
-2. Repository name: `agent-social-media-skill`
+2. Repository name: `openclaw-social-media-skill`
 3. Description: "Give your AI agent X/Twitter and LinkedIn access for $0/month. Saves $2,400/year vs APIs."
 4. Public repository
 5. **DO NOT** initialize with README, .gitignore, or license (we already have them)
@@ -12,10 +12,10 @@
 ## Step 2: Push to GitHub
 
 ```bash
-cd ~/Desktop/Product/agent-social-media-skill
+cd ~/Desktop/Product/openclaw-social-media-skill
 
 # Add remote (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/agent-social-media-skill.git
+git remote add origin https://github.com/YOUR_USERNAME/openclaw-social-media-skill.git
 
 # Push
 git branch -M main
@@ -30,11 +30,11 @@ After pushing, update these in README.md:
 ```bash
 # Change from:
 curl -o ~/.openclaw/tools/agent-social-search.py \
-  https://raw.githubusercontent.com/YOUR_USERNAME/agent-social-media-skill/main/agent-social-search.py
+  https://raw.githubusercontent.com/YOUR_USERNAME/openclaw-social-media-skill/main/agent-social-search.py
 
 # To:
 curl -o ~/.openclaw/tools/agent-social-search.py \
-  https://raw.githubusercontent.com/charleszuo/agent-social-media-skill/main/agent-social-search.py
+  https://raw.githubusercontent.com/charleszuo/openclaw-social-media-skill/main/agent-social-search.py
 ```
 
 **Bottom credits section:** Update GitHub username
@@ -62,7 +62,7 @@ Go to repo settings → scroll to "Topics" → Add:
 Replace `[GitHub link - will add]` with your actual repo URL:
 
 ```
-https://github.com/YOUR_USERNAME/agent-social-media-skill
+https://github.com/YOUR_USERNAME/openclaw-social-media-skill
 ```
 
 ## Final LinkedIn Post
@@ -88,7 +88,7 @@ I gave my AI agent its own X and LinkedIn accounts. Cost: $0/month.
 **Cost:** $0/month
 **Saves:** $2,400/year vs Twitter API
 
-Setup guide: https://github.com/YOUR_USERNAME/agent-social-media-skill
+Setup guide: https://github.com/YOUR_USERNAME/openclaw-social-media-skill
 
 What would you have your agent discover?
 
@@ -108,7 +108,7 @@ Results: 10+ tweets and LinkedIn posts with URLs in 25 seconds.
 
 Saves $2,400/year.
 
-Setup: https://github.com/YOUR_USERNAME/agent-social-media-skill
+Setup: https://github.com/YOUR_USERNAME/openclaw-social-media-skill
 
 What would you have your agent discover?
 
@@ -129,7 +129,7 @@ I used browser automation instead.
 - Full URLs included
 - $2,400/year savings
 
-Setup guide: https://github.com/YOUR_USERNAME/agent-social-media-skill
+Setup guide: https://github.com/YOUR_USERNAME/openclaw-social-media-skill
 ```
 
 **Hacker News Title:**

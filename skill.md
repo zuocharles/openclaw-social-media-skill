@@ -320,7 +320,7 @@ See `/examples` directory for:
 
 ## Support
 
-**Questions?** Open an issue: https://github.com/zuocharles/agent-social-media-skill/issues
+**Questions?** Open an issue: https://github.com/zuocharles/openclaw-social-media-skill/issues
 
 **Want to contribute?** PRs welcome!
 

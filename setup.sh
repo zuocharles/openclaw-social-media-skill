@@ -47,7 +47,7 @@ mkdir -p ~/.openclaw/tools
 
 # 6. Download the social search script
 echo "📥 Downloading social media search script..."
-curl -sL https://raw.githubusercontent.com/zuocharles/agent-social-media-skill/main/agent-social-search.py \
+curl -sL https://raw.githubusercontent.com/zuocharles/openclaw-social-media-skill/main/agent-social-search.py \
     -o ~/.openclaw/tools/agent-social-search.py
 chmod +x ~/.openclaw/tools/agent-social-search.py
 
@@ -99,6 +99,6 @@ echo "   - Create NEW LinkedIn account for your agent"
 echo "   - Close Chrome when done"
 echo ""
 echo "4. Then run this command to finalize:"
-echo "   bash <(curl -s https://raw.githubusercontent.com/zuocharles/agent-social-media-skill/main/finalize-setup.sh)"
+echo "   bash <(curl -s https://raw.githubusercontent.com/zuocharles/openclaw-social-media-skill/main/finalize-setup.sh)"
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

@@ -1,4 +1,4 @@
-# Agent Social Media Access
+# OpenClaw Social Media Skill
 
 Give your AI agent X (Twitter) and LinkedIn access for **$0/month**. No API keys needed.
 
@@ -21,7 +21,7 @@ Your agent can:
 **On your VPS, run:**
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/zuocharles/agent-social-media-skill/main/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/zuocharles/openclaw-social-media-skill/main/setup.sh)
 ```
 
 This installs everything. Then:
@@ -137,7 +137,7 @@ mkdir -p ~/.openclaw/tools
 
 # Download the script
 curl -o ~/.openclaw/tools/agent-social-search.py \
-  https://raw.githubusercontent.com/zuocharles/agent-social-media-skill/main/agent-social-search.py
+  https://raw.githubusercontent.com/zuocharles/openclaw-social-media-skill/main/agent-social-search.py
 
 # Make executable
 chmod +x ~/.openclaw/tools/agent-social-search.py
